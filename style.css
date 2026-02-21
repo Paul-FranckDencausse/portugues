@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family:Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #1e2a38, #2f3e4f 60%, #3b2c2a);
+    font-family: 'Poppins', sans-serif;
+    color: #f4e9e2;
+}
+
+.container {
+    background: rgba(255, 248, 240, 0.06);
+    backdrop-filter: blur(12px);
+    padding: 45px;
+    border-radius: 24px;
+    box-shadow: 
+        0 25px 50px rgba(0, 0, 0, 0.4),
+        inset 0 0 40px rgba(255, 255, 255, 0.03);
+    max-width: 420px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #e7c4b0;
+    text-align: center;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #d8b6a3;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.05);
+    color: #f4e9e2;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #c88f7a;
+    box-shadow: 0 0 0 3px rgba(200,143,122,0.2);
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(135deg, #a65d4a, #7a3e2b);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    background: linear-gradient(135deg, #b96a55, #8a4833);
+}
+
+.resultat {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: #e7c4b0;
+    opacity: 0.9;
+}
