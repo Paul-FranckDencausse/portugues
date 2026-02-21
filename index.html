@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conjugaison portugaise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>Conjugaison portugaise</h1>
+
+<div class="form-group">
+    <input type="text" id="verbe" placeholder="Entrez un infinitif">
+</div>
+
+<div class="form-group">
+    <label for="tense">Temps</label>
+    <select id="tense">
+        <option value="present">Présent</option>
+        <option value="preterite">Prétérite parfait</option>
+        <option value="imparfait">Imparfait</option>
+        <option value="futur">Futur</option>
+        <option value="passeCompose">Passé composé</option>
+        <option value="+QueParfait">Plus que parfait</option>
+        <option value="futurAnterieur">Futur antérieur</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="mode">Mode</label>
+    <select id="mode">
+        <option value="indicatif">Indicatif</option>
+        <option value="subjonctif">Subjonctif</option>
+        <option value="conditionnel">Conditionnel</option>
+        <option value="imperatif">Impératif</option>
+        <option value="gerondif">Gérondif</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="groupe">Groupe</label>
+    <select id="groupe">
+        <option value="are">-ar</option>
+        <option value="ere">-er</option>
+        <option value="ire">-ir</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="pronom">Pronom</label>
+    <select id="pronom">
+        <option value="io">eu</option>
+        <option value="tu">tu</option>
+        <option value="lui">ele/ela</option>
+        <option value="noi">nos</option>
+        <option value="voi">vos</option>
+        <option value="loro">eles/elas</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label>Ta réponse</label>
+    <input type="text" id="answer" placeholder="Écris la conjugaison ici">
+</div>
+
+<button id="action" type="button">Générer</button>
+
+
+<div class="resultat" id="resultat"></div>
+
+</div>
+
+<script src="script.js"> </script>
+
+</body>
+</html>
