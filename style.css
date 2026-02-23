@@ -88,3 +88,23 @@ button:hover {
     color: #e7c4b0;
     opacity: 0.9;
 }
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(30, 42, 56, 0.9); /* fond plus sombre */
+    color: #f4e9e2; /* texte clair */
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+select option {
+    background: #1e2a38; /* vrai fond sombre */
+    color: #f4e9e2;
+}
+
+select:focus {
+    border-color: #c88f7a;
+    box-shadow: 0 0 0 3px rgba(200,143,122,0.25);
+}
