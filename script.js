@@ -56,9 +56,9 @@ const terminaisons = {
     }
    },
    gerondif: {
-    are: ["ando"],
-    ere: ["endo"],
-    ire: ["endo"]
+    ar: ["ando"],
+    er: ["endo"],
+    ir: ["indo"]
    }
 };
 let bonneReponse = "";
