@@ -14,9 +14,9 @@ const terminaisons = {
         all: ["ò","ai","à","emo","ete","anno"]
     },
     passeCompose: {
-        ar: ["ato"],
-        er: ["uto"],
-        ir: ["ito"]
+        ar: ["ado","ado","ado","ado","ado"],
+        er: ["ido","ido","ido","ido","ido"],
+        ir: ["ido","ido","ido","ido","ido"]
     }
    },
    subjonctif: {
@@ -30,10 +30,10 @@ const terminaisons = {
             ere: ["essi","essi","esse","essimo","este","essero"],
             ire: ["issi","issi","isse","issimo","iste","issero"]
         },
-         passeCompose: {
-            are: ["ato"],
-            ere: ["uto"],
-            ire: ["ito"]
+        passeCompose: {
+        ar: ["ado","ado","ado","ado","ado"],
+        er: ["ido","ido","ido","ido","ido"],
+        ir: ["ido","ido","ido","ido","ido"]
     }
    },
    conditionnel: {
@@ -43,9 +43,9 @@ const terminaisons = {
             ire: ["irei","iresti","irebbe","iremmo","ireste","irebbero"]
         },
      passeCompose: {
-        are: ["ato"],
-        ere: ["uto"],
-        ire: ["ito"]
+        ar: ["ado","ado","ado","ado","ado"],
+        er: ["ido","ido","ido","ido","ido"],
+        ir: ["ido","ido","ido","ido","ido"]
     }
    },
    imperatif: {
